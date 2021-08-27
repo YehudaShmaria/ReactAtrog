@@ -17,7 +17,7 @@ const AllSetsViewCom = ()=>
                 <Col> 
                     <div className="Show">
                     <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><cite><b>All Set in One Price</b></cite></h1>
-                        <Button onClick={()=>{history.push('/products')}}>Go to The Product</Button>
+                        <Button onClick={()=>{history.push('/sets')}}>Go to The Product</Button>
                     </div> 
                 </Col>
 

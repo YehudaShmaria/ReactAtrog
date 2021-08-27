@@ -66,7 +66,7 @@ const AllProductViewCom = ()=>
                                 All four species in a variety of degrees and capacities
                             </h3>
                             <p>And we Have at all at a Good Price!!!</p>
-                            <Button style={{margin:'4px'}} onClick={()=>{history.push('/products')}}>Products</Button>
+                            <Button style={{margin:'4px'}} onClick={()=>{history.push('/sets')}}>Products</Button>
                         </div>
                         
                 </div> 
