@@ -5,17 +5,19 @@ import Sukkah from './Images/Sukkah.jpg'
 import vidoe from './vidoe/Test.mp4'
 import { Button,Carousel,Col,Row} from "react-bootstrap"
 import SetCss from './Css/AllSet.css'
+import { useHistory } from "react-router-dom"
 
 
 const AllSetsViewCom = ()=>
 {
+    const history = useHistory()
     return(
         <div className="AllSet">
                <Row>   
                 <Col> 
                     <div className="Show">
                     <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><cite><b>All Set in One Price</b></cite></h1>
-                        <Button>Go to The Product</Button>
+                        <Button onClick={()=>{history.push('/products')}}>Go to The Product</Button>
                     </div> 
                 </Col>
 

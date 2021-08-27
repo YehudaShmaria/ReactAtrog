@@ -62,11 +62,11 @@ const AllProductViewCom = ()=>
                 <div className="configText rounded">
                         <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><cite><b>4 Minim</b></cite> </h1>
                         <div className="bg-warning">
-                            <h3 style={{margin:'10px', fontSize:'16px',fontSize:' 3.8vw'}} className="text-dark">
+                            <h3 style={{margin:'10px', fontSize:'16px',fontSize:' 3vw'}} className="text-dark">
                                 All four species in a variety of degrees and capacities
                             </h3>
                             <p>And we Have at all at a Good Price!!!</p>
-                            <Button style={{margin:'4px'}} onClick={()=>{history.push('/allproducts')}}>Products</Button>
+                            <Button style={{margin:'4px'}} onClick={()=>{history.push('/products')}}>Products</Button>
                         </div>
                         
                 </div> 

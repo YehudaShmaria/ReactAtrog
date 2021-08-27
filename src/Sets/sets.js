@@ -30,36 +30,11 @@ const SetsCom = () =>
       <Container fluid>
       <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><b>The All Set</b></h1>
         <Row>
-        {/* <Col md={3} sm={12}>
-            <h2>בצע סינון</h2>
-        <Form>
-  {['checkbox'].map((type) => (
-    <div key={`inline-${type}`} className="mb-3">
-      <Form.Check
-        inline
-        label="סט תימני"
-        name="group1"
-        type={type}
-        id={`inline-${type}-1`}
-      />
-       <br/>
-     
-      <Form.Check
-        inline
-        label="סט ארץ ישראל"
-        name="group1"
-        type={type}
-        id={`inline-${type}-2`}
-      />
-     
-    </div>
-  ))}
-</Form>
-        </Col> */}
+   
         {
             products.map((item,index)=>
             {
-                return <Col md={3} sm={12}>
+                return <Col md={3} xs={12}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Header>Total Price: {item.TotalPrice}</Card.Header>
                             <Card.Img variant="top" src={item.Url} />

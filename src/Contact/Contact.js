@@ -1,4 +1,4 @@
-import { Form,Col,Row,Button } from 'react-bootstrap';
+import { Form,Col,Row,Button, Container } from 'react-bootstrap';
 import emailjs from 'emailjs-com'
 import { useState} from 'react'
 
@@ -19,6 +19,7 @@ const ContactCom = ()=>
 
     return(
         <div>
+            <Container fluid>
             <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><b>Contact Us</b></h1>
             <Row>
                 <Col className="bg-light rounded"  sm={12} md={4}>
@@ -50,6 +51,7 @@ const ContactCom = ()=>
                 <div style={{width: "100%"}}><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=%D7%97%D7%96%D7%95%D7%9F%20%D7%90%D7%99%D7%A9%20+(Etrog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
                 </Col>
             </Row>
+            </Container>
         </div>
     )
 }

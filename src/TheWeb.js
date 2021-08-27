@@ -16,18 +16,20 @@ function TheWebCom() {
     <div className="App">
        <Container fluid>
          <NavbarCom/>
-         <div className="myDiv">
-            <Switch>
-                <Route exact path="/" component={HomeCom}/>
-                <Route path="/about" component={AboutCom}/>
-                <Route path="/contact" component={ContactCom}/>
-                <Route path="/sets" component={SetsCom}/>
-                <Route path="/suka" component={SukaCom}/>
-                <Route path="/products" component={ProductsCom}/>
-                <Route path="/host" component={HostCom}/>
-                <Route path="/allproducts" component={AllProductsCom}/>
-            </Switch>
-            </div>
+         <Container fluid>
+            <div className="myDiv">
+                  <Switch>
+                      <Route exact path="/" component={HomeCom}/>
+                      <Route path="/about" component={AboutCom}/>
+                      <Route path="/contact" component={ContactCom}/>
+                      <Route path="/sets" component={SetsCom}/>
+                      <Route path="/suka" component={SukaCom}/>
+                      <Route path="/products" component={ProductsCom}/>
+                      <Route path="/host" component={HostCom}/>
+                      <Route path="/allproducts" component={AllProductsCom}/>
+                  </Switch>
+                </div>
+            </Container>
             <FooterCom/>
         
        </Container>
