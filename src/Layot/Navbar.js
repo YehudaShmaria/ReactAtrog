@@ -16,7 +16,7 @@ function NavbarCom(props) {
     setTotal(t);
   },[data])
   return (
-    <div className="App">
+    <div style={{marginBottom:'80px'}} className="App">
       <Navbar fixed="top" bg="light" expand="lg">
           <Container fluid>
             <Navbar.Brand href="#home">Chaim Atrogs</Navbar.Brand>
