@@ -16,8 +16,8 @@ const HomeCom = (props)=>
             <AllSetsViewCom/>
             <br/>
             <AllProductViewCom onScroll={() => {alert("Test")}}/>
-            <br/>
-            <ProductView name="Soca" images={[Sukkah,Sukkah,Sukkah]}/>
+            {/* <br/>
+            <ProductView name="Soca" images={[Sukkah,Sukkah,Sukkah]}/> */}
           
         </div>
     )

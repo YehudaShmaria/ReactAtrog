@@ -35,7 +35,7 @@
 }
 header {
     position: relative;
-    background-color: black;
+    background-color: rgb(4, 150, 28);
     height: 75vh;
     min-height: 25rem;
     width: 100%;
@@ -69,15 +69,22 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.2;
     z-index: 1;
   }
-  
-  @media (pointer: coarse) and (hover: none) {
+
+  /* @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      background: url('./vidoe/Test2.mp4') no-repeat center center scroll;
     }
     header video {
       display: none;
     }
+  }
+   */
+
+  video {
+    display: block;
+    width: 100%;
+    max-height: 100%;
   }

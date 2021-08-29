@@ -17,7 +17,15 @@ const AllSetsViewCom = ()=>
                 <Col> 
                     <div className="Show">
                     <h1 style={{backgroundColor:'rgb(37, 94, 37)',color:'white'}}><cite><b>All Set in One Price</b></cite></h1>
-                        <Button onClick={()=>{history.push('/sets')}}>Go to The Product</Button>
+                    <div style={{margin:'20px'}} className="bg-warning">
+                            <h3 style={{margin:'15px', marginTop:'20px', fontSize:'16px',fontSize:' 2.7vw'}} className="text-dark">
+                            How simple and easy to get everything you need in one order, come together and order the whole four Minim set.
+                            <br/>
+                           <cite>We will provide you everything to the house.</cite> 
+                            </h3>
+                            <Button style={{margin:'10px'}} onClick={()=>{history.push('/sets')}}>Go to The Product</Button>
+                        </div>
+                        
                     </div> 
                 </Col>
 

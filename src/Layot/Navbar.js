@@ -26,7 +26,7 @@ function NavbarCom(props) {
               <Nav.Link><Link className="btn" role="button" to="/">Home</Link></Nav.Link>
               <Nav.Link><Link className="btn" role="button" to="/sets">Set 4 Minim</Link></Nav.Link>
               <Nav.Link><Link className="btn" role="button" to="/allproducts">All Products</Link></Nav.Link>
-              <Nav.Link><Link className="btn" role="button" to="/suka">Sukkot</Link></Nav.Link>
+              {/* <Nav.Link><Link className="btn" role="button" to="/suka">Sukkot</Link></Nav.Link> */}
               <Nav.Link><Link className="btn" role="button" to="/about">About</Link></Nav.Link>
               <Nav.Link><Link className="btn" role="button" to="/contact">Contact</Link></Nav.Link>
               <Nav.Link style={{textAlign:'right'}} className="ml-auto"><Link className="btn" role="button" to="/products"> <span class="badge badge-success">Total Price: ${total} </span>&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
